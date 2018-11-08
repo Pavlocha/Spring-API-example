@@ -55,7 +55,7 @@ public class Food implements DomainObject {
 
     @Override
     public int getId() {
-        return  id;
+        return id;
     }
 
     @Override

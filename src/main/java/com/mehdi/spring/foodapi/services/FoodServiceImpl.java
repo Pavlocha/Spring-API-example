@@ -9,7 +9,7 @@ import javax.persistence.PersistenceUnit;
 import java.util.List;
 
 @Service
-public class FoodServiceImpl implements FoodService{
+public class FoodServiceImpl implements FoodService {
 
     private EntityManagerFactory emf;
 

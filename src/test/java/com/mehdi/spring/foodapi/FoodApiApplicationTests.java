@@ -14,16 +14,16 @@ import static org.assertj.core.api.Assertions.assertThat;
 @SpringBootTest
 public class FoodApiApplicationTests {
 
-	@LocalServerPort
-	private int port;
+    @LocalServerPort
+    private int port;
 
-	@Autowired
-	private TestRestTemplate restTemplate;
+    @Autowired
+    private TestRestTemplate restTemplate;
 
-	@Test
-	public void WelcomePageTest() {
-		assertThat(this.restTemplate.getForObject("http://localhost:" + port + "/",
-				String.class)).contains("Welcome to FoodAPI");
-	}
+    @Test
+    public void WelcomePageTest() {
+        assertThat(this.restTemplate.getForObject("http://localhost:" + port + "/",
+                String.class)).contains("Welcome to FoodAPI");
+    }
 
 }
