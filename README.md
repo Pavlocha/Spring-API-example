@@ -1,14 +1,14 @@
-This project is a REST API for storing information about food (name,calories,date of production date of permtion)
+This project is a REST API using spring boot
 	
-sources :	https://www.udemy.com/spring-core/learn/v4/overview
-			https://spring.io/guides/gs/testing-web/
-			http://www.springboottutorial.com/integration-testing-for-spring-boot-rest-services
-			https://www.baeldung.com/spring-security-basic-authentication
-			
-IDE used		: Intellij
-Framework		: SpringBoot 2
-DataBase		: H2 
-Documentation	: Swagger
-Tests			: SpringBootTest
-Security		: SpringSecurity
+# Sources :	
+- https://www.udemy.com/spring-core/learn/v4/overview
+- https://spring.io/guides/gs/testing-web/
+- http://www.springboottutorial.com/integration-testing-for-spring-boot-rest-services
+- https://www.baeldung.com/spring-security-basic-authentication
+# Tools: 		
+- Framework : SpringBoot 2
+- DB : H2 
+- Documentation	: Swagger
+- Tests	: SpringBootTest
+- Security : SpringSecurity
 	
